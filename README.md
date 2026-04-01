@@ -291,7 +291,13 @@ healthcare-admissions-bi-dashboard/
 
 ## About the Author
 
-Dr. Ikrma Choudry holds an MBBS degree and has clinical and teaching experience in medicine. Currently transitioning into Healthcare Business Intelligence, combining medical domain expertise with Power BI, DAX, SQL, and data modeling skills to deliver analytics solutions for hospital systems, payer organizations, and healthcare analytics companies.
+Dr. Ikrma Choudry is a Healthcare Business Intelligence Developer with a strong foundation in clinical medicine and medical education.
+
+He specializes in transforming healthcare data into actionable insights using Power BI, DAX, SQL, and data modeling techniques. His unique combination of medical domain expertise and analytics skills enables him to design data solutions tailored for hospital systems, payer organizations, and healthcare analytics environments.
+
+🔹 Target Roles: Healthcare BI Analyst | Clinical Data Analyst | Population Health Analyst  
+🔹 Tools: Power BI | DAX | Power Query | SQL (PostgreSQL) | Star Schema Modeling  
+🔹 Domain: Healthcare Analytics | Hospital Operations | Value-Based Care | CMS Quality Metrics
 
 **Target roles:** Healthcare BI Analyst | Clinical Data Analyst | Population Health Analyst  
 **Tools:** Power BI | DAX | Power Query | SQL (PostgreSQL) | Star Schema Modeling  
