@@ -151,26 +151,62 @@ Day of Week
 
 ---
 
-### Page 2 — Clinical Deep Dive
+## Page 2 — Clinical Deep Dive
+
 **Audience:** Clinical Director, Quality Improvement Team, Department Heads  
 **Purpose:** Clinical complexity and outcome analysis at diagnosis level
 
-**KPIs:**
-- Low Follow-up Rate (patients with fewer than 3 visits — 46%)
-- Average Prior Admissions (1.57)
-- Average Medications per Patient (7.50)
-- High Clinical Risk Patients — comorbidities greater than 4 (42.96%)
+---
 
-**Visuals:**
-- Discharge Disposition — Donut Chart
-- Age Group Distribution — Column Chart
-- Readmission Rate by Diagnosis — Horizontal Bar Chart
-- Comorbidity Burden by Diagnosis — Clustered Bar Chart (dual axis)
-- Average Length of Stay by Diagnosis — Horizontal Bar Chart
+### KPIs
 
-**Clinical Insight:**  
-Heart failure and sepsis patients show the highest comorbidity burden and longest lengths of stay, indicating complex high-cost cases. COPD has the highest readmission rate (28.4%), suggesting inadequate post-discharge follow-up planning. Targeted discharge interventions for COPD and heart failure patients could significantly reduce CMS penalty exposure.
+- **Low Follow-up Rate** (patients with fewer than 3 visits): **46%**
+- **Average Prior Admissions:** **1.57**
+- **Average Medications per Patient:** **7.50**
+- **High Clinical Risk Patients** (comorbidities > 4): **42.96%**
 
+---
+
+### Visuals
+
+- Discharge Disposition — Donut Chart  
+- Age Group Distribution — Column Chart  
+- Readmission Rate by Diagnosis — Horizontal Bar Chart  
+- Comorbidity Burden by Diagnosis — Clustered Bar Chart (dual axis)  
+- Average Length of Stay by Diagnosis — Horizontal Bar Chart  
+- **Readmitted vs Non-Readmitted Count by Follow-up Visits — Clustered Bar Chart**
+
+---
+
+### Clinical Insight
+
+Heart failure and sepsis patients show the highest comorbidity burden and longest lengths of stay, indicating complex, high-cost cases. COPD has the highest readmission rate (28.4%), suggesting gaps in post-discharge care.
+
+The follow-up analysis further strengthens this finding — patients with **lower follow-up visit frequency show disproportionately higher readmission counts**, highlighting a critical gap in continuity of care.
+
+This reinforces that **insufficient follow-up is a key driver of readmissions**, especially in chronic disease populations.
+
+---
+
+### Actionable Insight
+
+- Strengthen structured follow-up programs (minimum quarterly visits for high-risk patients)
+- Prioritize COPD and heart failure patients for post-discharge care pathways
+- Implement automated follow-up tracking dashboards for care teams
+- Use follow-up adherence as a **predictive risk indicator for readmission prevention**
+
+---
+
+### Business Impact
+
+Improving follow-up compliance in high-risk cohorts can:
+
+- Reduce avoidable readmissions  
+- Lower CMS penalty exposure  
+- Optimize hospital resource utilization  
+- Improve long-term patient outcomes  
+
+---
 ---
 
 ### Page 3 — Predictive Analytics
