@@ -110,7 +110,19 @@ SWITCH(
 *Naming convention: "Predicted" = machine learning risk score-based classification*
 *Key differentiator from Clinical Risk Band — these are two separate risk systems*
 
----
+###  Follow-Up Category
+```dax
+Follow Up Category = 
+SWITCH(
+    TRUE(),
+    fact_pt_admissions[followup_visits_last_year] < 4, "Low (1-3 visits)",
+    fact_pt_admissions[followup_visits_last_year] < 6, "Moderate (4-5 visits)",
+    "Adequate (6+ visits)"
+)
+```
+
+
+*The primary objective of this categorization is to perform Explanatory Analytics. By cross-referencing these 'Follow Up Bands' with actual readmission outcomes*
 
 ## SECTION 4 — ALL DAX MEASURES
 Created via: Click _Measures table → New Measure
