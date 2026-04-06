@@ -255,19 +255,6 @@ Real-world clinical models (LACE score, Epic readmission index) typically achiev
 
 ---
 
-## Model Validation — Confusion Matrix
-
-The model uses binary classification with High Risk (readmission_risk_score ≥ 0.6) as the positive class.
-
-| | Actual Readmitted (label=1) | Actual Not Readmitted (label=0) |
-|---|---|---|
-| Predicted High Risk | True Positive (TP) — correctly flagged | False Positive (FP) — false alarm |
-| Predicted Low Risk | False Negative (FN) — missed case | True Negative (TN) — correctly cleared |
-
-The False Negative count represents the most clinically dangerous error — patients discharged without intervention who were later readmitted. Minimizing FN is the primary model optimization goal in healthcare.
-
----
-
 ## Key DAX Measures and Calculated Columns
 
 See [`dax/dax_measures_and_columns.md`](./dax/dax_measures_and_columns.md) for complete DAX with explanations.
