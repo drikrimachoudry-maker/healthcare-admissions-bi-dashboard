@@ -16,8 +16,7 @@
 
 This project demonstrates end-to-end Business Intelligence development for a healthcare admissions dataset — from raw CSV ingestion through data modeling, DAX development, and multi-page interactive dashboard creation including predictive model validation.
 
-As a medical doctor transitioning into healthcare BI, this project combines clinical domain expertise with technical BI skills to deliver insights that hospital administrators, quality improvement teams, payer organizations, and data science teams actually use — including readmission risk analysis, comorbidity burden assessment, predictive model validation, and ML evaluation metrics including Precision, Recall, and F1 Score.
-
+As a Healthcare BI Analyst with a clinical background, I engineered this suite to bridge the gap between complex medical datasets and executive decision-making. The project demonstrates advanced modeling of hospital performance metrics, combining domain-driven logic with predictive analytics to optimize payer-facing reporting and clinical outcome tracking.
 ---
 
 ## Business Problem
