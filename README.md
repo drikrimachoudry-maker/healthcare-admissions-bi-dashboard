@@ -23,7 +23,7 @@ Hospital readmissions are one of the most significant cost drivers in US healthc
 - Which patient populations carry the highest predicted risk?
 - Is the hospital's follow-up care adequate for high-risk patients?
 - How well does the AI risk model predict actual readmission outcomes?
-- What is the relationship between clinical complexity (comorbidities) and length of stay?
+- Which diagnosis has the highest readmission rate and LOS ( length of stay ) 
 - How reliable is the predictive model — measured by Precision, Recall, and F1 Score?
 - Does lower follow-up visit frequency directly correlate with higher actual readmission rates?
 
