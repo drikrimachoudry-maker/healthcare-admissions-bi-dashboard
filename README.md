@@ -1,20 +1,16 @@
 # Healthcare Admissions Analytics — Hospital Performance Dashboard
-
-**Author**: Dr. Ikrma Choudry | MBBS | Healthcare Business Intelligence Developer
-
-**Tool**: Microsoft Power BI Desktop
-
-**Dataset**: Synthetic Healthcare Admissions Dataset (Kaggle)
-
-**Records**: 8,000 patient admissions
-
-**Status**: Portfolio Project — Healthcare BI Niche
+### 📊 Project Metadata
+* **Author:** **Dr. Ikrma Choudry** | MBBS | Healthcare Business Intelligence Expert
+* **Tools:** **Microsoft Power BI Desktop**, **DAX**, **Power Query**
+* **Dataset:** **Synthetic Healthcare Admissions** (Kaggle)
+* **Scope:** **8,000 Patient Admissions** | Clinical Risk & Predictive Modeling
+* **Status:** Professional Portfolio — Healthcare BI Niche
 
 ---
 
-## Project Overview
+# Project Overview
 
-This project demonstrates end-to-end Business Intelligence development for a healthcare admissions dataset — from raw CSV ingestion through data modeling, DAX development, and multi-page interactive dashboard creation including predictive model validation.
+This project demonstrates end-to-end Business Intelligence development for a healthcare admissions dataset — from raw CSV ingestion through data modeling, DAX development, and multi-page interactive dashboard creation, including predictive model validation.
 
 As a Healthcare BI Analyst with a clinical background, I engineered this suite to bridge the gap between complex medical datasets and executive decision-making. The project demonstrates advanced modeling of hospital performance metrics, combining domain-driven logic with predictive analytics to optimize payer-facing reporting and clinical outcome tracking.
 ---
