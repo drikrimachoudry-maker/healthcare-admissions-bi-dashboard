@@ -12,9 +12,14 @@
 
 This project demonstrates end-to-end Business Intelligence development for a healthcare admissions dataset — from raw CSV ingestion through data modeling, DAX development, and multi-page interactive dashboard creation, including predictive model validation.
 
-As a Healthcare BI Analyst with a clinical background, I engineered this suite to bridge the gap between complex medical datasets and executive decision-making. The project demonstrates advanced modeling of hospital performance metrics, combining domain-driven logic with predictive analytics to optimize payer-facing reporting and clinical outcome tracking.
 ---
 
+### Project Overview
+This project demonstrates end-to-end Business Intelligence development for a complex healthcare environment—moving from raw CSV ingestion through advanced data modeling and multi-page interactive dashboard creation.
+
+> **Expert Statement:** As a Healthcare BI Analyst with a clinical background, I engineered this suite to bridge the gap between complex medical datasets and executive decision-making. The project demonstrates advanced modeling of hospital performance metrics, combining domain-driven logic with predictive analytics to optimize payer-facing reporting and clinical outcome tracking.
+
+---
 ## Business Problem
 
 Hospital readmissions are one of the most significant cost drivers in US healthcare. The Centers for Medicare and Medicaid Services (CMS) penalizes hospitals with high 30-day readmission rates through the Hospital Readmissions Reduction Program (HRRP). Understanding which patients are at highest risk, which diagnoses drive the most readmissions, and whether post-discharge follow-up is adequate are critical questions for hospital administrators and quality teams.
