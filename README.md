@@ -8,12 +8,6 @@
 
 ---
 
-# Project Overview
-
-This project demonstrates end-to-end Business Intelligence development for a healthcare admissions dataset — from raw CSV ingestion through data modeling, DAX development, and multi-page interactive dashboard creation, including predictive model validation.
-
----
-
 ### Project Overview
 This project demonstrates end-to-end Business Intelligence development for a complex healthcare environment—moving from raw CSV ingestion through advanced data modeling and multi-page interactive dashboard creation.
 
