@@ -56,7 +56,7 @@ Hospital readmissions are one of the most significant cost drivers in US healthc
 | label | Integer | Actual readmission outcome (1 = readmitted, 0 = not readmitted) |
 
 **Data Limitations:**
-This is a synthetic dataset generated for analytical practice. The label distribution (approximately 77% readmission rate) does not reflect real-world clinical rates of 15–20%. The follow-up visit distribution is similarly compressed. All analytical methodology, data modeling, DAX calculations, and dashboard architecture represent genuine BI development skills applied to available synthetic data. The Low Follow-up Rate KPI uses a threshold of fewer than 3 visits per year, consistent with clinical guidelines recommending minimum quarterly follow-up for high-risk chronic disease patients.
+This is a synthetic dataset generated for analytical practice. The label distribution (approximately 77% readmission rate) does not reflect real-world clinical rates of 15–20%. The follow-up visit distribution is similarly compressed. All analytical methodology, data modeling, DAX calculations, and dashboard architecture represent genuine BI development skills applied to available synthetic data. The Low Follow-up Rate KPI uses a threshold of fewer than 4 visits per year, consistent with clinical guidelines recommending minimum quarterly follow-up for high-risk chronic disease patients.
 
 ---
 
