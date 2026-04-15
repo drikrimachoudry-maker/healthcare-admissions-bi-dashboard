@@ -212,7 +212,7 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
 - Model Accuracy: 80.9%
 - Recall — Sensitivity: 88.11%
 
-**Interactive Tooltips (hover to reveal — professional UX design decision):
+**Interactive Tooltips (hover to reveal — professional UX design decision):**
 Recall card → Precision, F1 Score, and Clinical Note tooltip:
 
 Precision: 87.34% — of all patients flagged as high risk, 87.34% were actually readmitted (low false alarm rate)
