@@ -179,19 +179,19 @@ Hypertension and diabetes dominate admissions volume, reflecting the chronic dis
 **Visuals:**
 - Discharge Disposition — Donut Chart
 - Age Group Distribution — Column Chart (Young Adult, Middle Aged, Geriatric)
-- Readmission Rate by Diagnosis — Horizontal Bar Chart
-- Comorbidity Burden by Diagnosis — Clustered Bar Chart with dual axis
-- Average Length of Stay by Diagnosis — Horizontal Bar Chart
-- Readmitted vs Non-Readmitted by Follow-up Visit Frequency — Clustered Bar Chart
+- Readmission Rate by Age Group — Horizontal Bar Chart
+- Comorbidity Burden by Diagnosis — Horizontal Bar Chart
+- Average Length of Stay and Readmission Rate by Diagnosis — Clustered Bar Chart
+- Readmitted vs Non-Readmitted by Follow-up Visit Frequency — Clustered Column Chart
 
 **Clinical Insight:**
-Heart failure and sepsis carry the highest comorbidity burden and longest lengths of stay — these are the hospital's most complex and costly patient types. COPD shows the highest readmission rate, suggesting a systemic gap in post-discharge continuity of care.
+Fractures, Infuenza and Appendicitis carry the highest comorbidity burden. Sespsis and COPD shows the highest readmission rate and Longer Hospital stay, suggesting a systemic gap in post-discharge continuity of care. — these are the hospital's most complex and costly patient types.
 
 The follow-up analysis provides the most actionable finding in this dashboard: patients with lower follow-up visit frequency show disproportionately higher actual readmission counts. This directly links inadequate post-discharge monitoring to CMS penalty exposure. With 46% of patients below the minimum quarterly follow-up threshold, this represents a large, addressable care gap.
 
 **Actionable Insights:**
 - Implement structured follow-up programs with minimum quarterly visits for all chronic disease patients
-- Create dedicated post-discharge care pathways for COPD and heart failure — the two highest-risk diagnoses
+- Create dedicated post-discharge care pathways for COPD and Sepsis — the two highest-risk diagnoses, as shown in highest  readmission rate.
 - Deploy automated follow-up tracking systems to flag patients approaching low-visit thresholds
 - Use follow-up adherence as a leading indicator for readmission risk — trigger early intervention before readmission occurs
 
