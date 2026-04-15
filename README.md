@@ -162,7 +162,7 @@ This self-documenting convention ensures any analyst opening the model understan
 Date Range, Gender, Insurance Type, Region, Age Group, Primary Diagnosis
 
 **Clinical Insight:**
-Heart failure and diabetes dominate admissions volume, reflecting the chronic disease burden of this population. South and West regions carry the highest admission loads. Medicare dominates the payer mix — making CMS penalty management a financial priority for this hospital system.
+Hypertension and diabetes dominate admissions volume, reflecting the chronic disease burden of this population. South and West regions carry the highest admission loads. Private and Medicare dominates the payer mix — making CMS penalty management a financial priority for this hospital system.
 
 ---
 
