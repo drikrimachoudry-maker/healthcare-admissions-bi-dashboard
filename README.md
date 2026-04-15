@@ -224,7 +224,7 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
   
 
 This tooltip reveals the most actionable finding across the entire dashboard — 66.30% of patients flagged as high predicted risk had inadequate follow-up (fewer than 4 visits), compared to only 2.04% of low-risk patients. This directly links the model's risk predictions to a real and addressable care gap. High-risk patients are not only more likely to be readmitted — they are also the least likely to receive adequate post-discharge follow-up, compounding their clinical and financial risk to the hospital.
-Tooltips are implemented as hidden Report Pages assigned to specific KPI cards. This keeps the main canvas clean for executive audiences while providing full technical depth on demand for analysts and clinical teams.
+-Tooltips are implemented as hidden Report Pages assigned to specific KPI cards. This keeps the main canvas clean for executive audiences while providing full technical depth on demand for analysts and clinical teams.
 
 **Visuals:**
 - Predicted Risk Band Distribution — Column Chart (High risk: 6,200 patients, Low risk: 1,800 patients)
