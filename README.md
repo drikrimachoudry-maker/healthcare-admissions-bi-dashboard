@@ -21,10 +21,10 @@ Hospital readmissions are one of the most significant cost drivers in US healthc
 **This dashboard answers:**
 - Which diagnoses and patient populations drive the highest readmission rates? { Page 2- Clinical Deep Dive - Bar Chart ( Readmission Rate by Age group )  & Clustered Bar Chart ( Avg LOS and Readmission Rate by Diagnosis ) }
 - Which patient populations carry the highest predicted risk? { Page 3- Predictive Analytics - Bar Chart ( Avg Predicted Risk Score by Age Group ) }
-- Is the hospital's follow-up care adequate for high-risk patients? { Page 3- Predictive Analuytics - Matrix Tooltip on High Predicted Risk Patients KPI- Tooltip ) } 
-- How well does the AI risk model predict actual readmission outcomes? { Page 3- Predictive Analuytics - Stacked Bar Chart ( Model Validation - Predicted Risk and Actaul Readmission ) } 
+- Is the hospital's follow-up care adequate for high-risk patients? { Page 3- Predictive Analytics - Matrix Tooltip on High Predicted Risk Patients KPI- Tooltip ) } 
+- How well does the AI risk model predict actual readmission outcomes? { Page 3- Predictive Analytics - Stacked Bar Chart ( Model Validation - Predicted Risk and Actual Readmission ) } 
 - Which diagnosis has the highest readmission rate and LOS ( length of stay ) { Page 2- Clinical Deep Dive - Clustered Bar Chart ( Avg LOS and Readmission Rate by Diagnosis ) }
-- How reliable is the predictive model — measured by Precision, Recall, and F1 Score? { Page 3- Predictive Analuytics - KPIs) }
+- How reliable is the predictive model — measured by Precision, Recall, and F1 Score? { Page 3- Predictive Analytics - KPIs) }
 - Does lower follow-up visit frequency directly correlate with higher actual readmission rates? { Page 2- Clinical Deep Dive        - Clustered Column Chart ( Readmitted and Not Readmitted Count by Follow Up Rate ) }
 
 ---
