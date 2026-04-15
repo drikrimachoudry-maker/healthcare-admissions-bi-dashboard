@@ -19,7 +19,7 @@ This project demonstrates end-to-end Business Intelligence development for a com
 Hospital readmissions are one of the most significant cost drivers in US healthcare. The Centers for Medicare and Medicaid Services (CMS) penalizes hospitals with high 30-day readmission rates through the Hospital Readmissions Reduction Program (HRRP). Understanding which patients are at highest risk, which diagnoses drive the most readmissions, and whether post-discharge follow-up is adequate are critical questions for hospital administrators and quality teams.
 
 **This dashboard answers:**
-- Which diagnoses and patient population drive the highest readmission rates?
+- Which diagnoses and patient populations drive the highest readmission rates?
 - Which patient populations carry the highest predicted risk?
 - Is the hospital's follow-up care adequate for high-risk patients?
 - How well does the AI risk model predict actual readmission outcomes?
