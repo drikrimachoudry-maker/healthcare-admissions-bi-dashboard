@@ -212,18 +212,18 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
 - Model Accuracy: 80.9%
 - Recall — Sensitivity: 88.11%
 
-**Interactive Tooltips (hover to reveal — professional UX design decision):**
+**Interactive Tooltips (hover to reveal — professional UX design decision):
+Recall card → Precision, F1 Score, and Clinical Note tooltip:
 
-*Model Accuracy card → Confusion Matrix tooltip:*
-Shows the full TP, FP, FN, TN breakdown. Color coded — green for correct predictions, red for errors. The False Negative cell is the most clinically critical figure — it represents patients the model missed who were later readmitted without adequate intervention.
+Precision: 87.34% — of all patients flagged as high risk, 87.34% were actually readmitted (low false alarm rate)
+Recall: 88.11% — of all actual readmissions, 88.11% were correctly identified (low missed case rate)
+F1 Score: 87.72% — harmonic mean of Precision and Recall, confirming strong balanced model performance
+Clinical note: In healthcare Recall is prioritized over Precision — missing a high-risk patient is clinically more dangerous than a false alarm
 
-*Recall card → Precision, F1 Score, and Clinical Note tooltip:*
-- Precision: 87.34% (of all flagged patients, 87.34% were truly readmitted)
-- Recall: 88.11% (of all actual readmissions, 88.11% were correctly caught)
-- F1 Score: 87.72% (balanced performance across both metrics)
-- Clinical note: In healthcare, Recall is prioritized — missing a sick patient is more dangerous than a false alarm
-
-Tooltips are implemented as hidden Report Pages assigned to specific KPI cards. This keeps the main canvas clean for executive audiences while providing full technical detail on demand for analysts.
+High Predicted Risk Patients card → Follow-up Rate by Risk Band tooltip:
+Follow-up CategoryHigh RiskLow RiskAdequate (4+ visits)33.70%97.96%Low (1–4 visits)66.30%2.04%
+This tooltip reveals the most actionable finding across the entire dashboard — 66.30% of patients flagged as high predicted risk had inadequate follow-up (fewer than 4 visits), compared to only 2.04% of low-risk patients. This directly links the model's risk predictions to a real and addressable care gap. High-risk patients are not only more likely to be readmitted — they are also the least likely to receive adequate post-discharge follow-up, compounding their clinical and financial risk to the hospital.
+Tooltips are implemented as hidden Report Pages assigned to specific KPI cards. This keeps the main canvas clean for executive audiences while providing full technical depth on demand for analysts and clinical teams.
 
 **Visuals:**
 - Predicted Risk Band Distribution — Column Chart (High risk: 6,200 patients, Low risk: 1,800 patients)
