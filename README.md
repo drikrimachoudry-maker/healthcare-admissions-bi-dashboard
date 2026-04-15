@@ -19,13 +19,13 @@ This project demonstrates end-to-end Business Intelligence development for a com
 Hospital readmissions are one of the most significant cost drivers in US healthcare. The Centers for Medicare and Medicaid Services (CMS) penalizes hospitals with high 30-day readmission rates through the Hospital Readmissions Reduction Program (HRRP). Understanding which patients are at highest risk, which diagnoses drive the most readmissions, and whether post-discharge follow-up is adequate are critical questions for hospital administrators and quality teams.
 
 **This dashboard answers:**
-- Which diagnoses and patient populations drive the highest readmission rates?
-- Which patient populations carry the highest predicted risk?
-- Is the hospital's follow-up care adequate for high-risk patients?
-- How well does the AI risk model predict actual readmission outcomes?
-- Which diagnosis has the highest readmission rate and LOS ( length of stay ) 
-- How reliable is the predictive model — measured by Precision, Recall, and F1 Score?
-- Does lower follow-up visit frequency directly correlate with higher actual readmission rates?
+- Which diagnoses and patient populations drive the highest readmission rates? { Page 2- Clinical Deep Dive - Bar chart ( Readmission Rate by Age group )  & Clustered Bar Chart ( Avg LOS and Readmission Rate by Diagnosis ) }
+- Which patient populations carry the highest predicted risk? { Page 3- Predictive Analytics - Bar Chart ( Avg Predicted Risk Score by Age Group ) }
+- Is the hospital's follow-up care adequate for high-risk patients? { Page 3- Predictive Analuytics - Matrix Tooltip on High Predicted Risk Patients ) } 
+- How well does the AI risk model predict actual readmission outcomes? { Page 3- Predictive Analuytics - Stacked Bar Chart ( Model Validation - Predicted Risk and Actaul Readmission ) } 
+- Which diagnosis has the highest readmission rate and LOS ( length of stay ) { Page 2- Clinical Deep Dive - Clustered Bar Chart ( Avg LOS and Readmission Rate by Diagnosis ) }
+- How reliable is the predictive model — measured by Precision, Recall, and F1 Score? { Page 3- Predictive Analuytics - KPIs) }
+- Does lower follow-up visit frequency directly correlate with higher actual readmission rates? { Page 2- Clinical Deep Dive        - Clustered Column Chart ( Readmitted and Not Readmitted Count by Follow Up Rate ) }
 
 ---
 
