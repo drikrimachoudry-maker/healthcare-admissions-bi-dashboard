@@ -213,12 +213,13 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
 - Recall — Sensitivity: 88.11%
 
 **Interactive Tooltips (hover to reveal — professional UX design decision):**
+
 Recall card → Precision, F1 Score, and Clinical Note tooltip:
 
 Precision: 87.34% — of all patients flagged as high risk, 87.34% were actually readmitted (low false alarm rate)
 Recall: 88.11% — of all actual readmissions, 88.11% were correctly identified (low missed case rate)
 F1 Score: 87.72% — harmonic mean of Precision and Recall, confirming strong balanced model performance
-Clinical note: In healthcare Recall is prioritized over Precision — missing a high-risk patient is clinically more dangerous than a false alarm
+Clinical note: In healthcare Recall is prioritized over Precision — missing a high-risk patient is clinically more dangerous than a false alarm.
 
 High Predicted Risk Patients card → Follow-up Rate by Risk Band tooltip:
 Follow-up CategoryHigh RiskLow RiskAdequate (4+ visits)33.70%97.96%Low (1–4 visits)66.30%2.04%
