@@ -216,9 +216,9 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
 
 - Recall card → Precision, F1 Score, and Clinical Note tooltip:
 
-*Precision*: 87.34% — of all patients flagged as high risk, 87.34% were actually readmitted (low false alarm rate)
-*Recall*: 88.11% — of all actual readmissions, 88.11% were correctly identified (low missed case rate)
-#F1 Score#: 87.72% — harmonic mean of Precision and Recall, confirming strong balanced model performance
+-Precision: 87.34% — of all patients flagged as high risk, 87.34% were actually readmitted (low false alarm rate)
+-Recall: 88.11% — of all actual readmissions, 88.11% were correctly identified (low missed case rate)
+-F1 Score: 87.72% — harmonic mean of Precision and Recall, confirming strong balanced model performance
 Clinical note: In healthcare Recall is prioritized over Precision — missing a high-risk patient is clinically more dangerous than a false alarm.
 
 - High Predicted Risk Patients card → Follow-up Rate by Risk Band tooltip:
