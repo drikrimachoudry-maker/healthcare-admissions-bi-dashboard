@@ -233,7 +233,7 @@ Tooltips are implemented as hidden Report Pages assigned to specific KPI cards. 
 - Predicted Risk Band Distribution — Column Chart (High risk: 6,200 patients, Low risk: 1,800 patients)
 - Model Validation Gold Chart — 100% Stacked Bar showing 87% of High Risk patients actually readmitted vs 42% of Low Risk patients — confirming model discrimination
 - Average Predicted Risk Score by Diagnosis — Horizontal Bar Chart
-- Average Risk Score by Age Group — Color-coded bars (Geriatric 0.95 red, Middle Aged 0.74 blue, Young Adult 0.49 green)
+- Average Predicted Risk Score by Age Group — Color-coded bars (Geriatric 0.95 red, Middle Aged 0.74 blue, Young Adult 0.49 green)
 
 **Clinical Insight — Dr. Ikrma:**
 The predictive model demonstrates strong performance with 88.11% Recall — meaning it correctly identifies nearly 9 in 10 patients who will be readmitted within 30 days. In healthcare analytics, Recall is the primary optimization target because the cost of a missed high-risk patient — patient harm, unplanned readmission, CMS penalty — far exceeds the cost of an unnecessary follow-up call.
