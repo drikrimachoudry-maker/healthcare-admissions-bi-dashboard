@@ -220,7 +220,7 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
     * **F1 Score:** 87.72% — harmonic mean of Precision and Recall, confirming strong balanced model performance
     * **Clinical note:** In healthcare, Recall is prioritized over Precision — missing a high-risk patient is clinically more dangerous than a false alarm.
 
-- High Predicted Risk Patients card → Follow-up Rate by Risk Band tooltip:
+- High Predicted Risk Patients card → Follow-up Rate by Predicted Risk Band tooltip:
   
 This tooltip reveals the most actionable finding across the entire dashboard — **66.30%** of patients flagged as high predicted risk had inadequate follow-up (fewer than 4 visits), compared to only **2.04%** of low-risk patients. 
 
