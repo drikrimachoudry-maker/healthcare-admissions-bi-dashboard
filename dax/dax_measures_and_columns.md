@@ -116,9 +116,8 @@ SWITCH(
 Follow Up Category = 
 SWITCH(
     TRUE(),
-    fact_pt_admissio
-)ns[followup_visits_last_year] < 5, "Low (1-4 visits)",
-    "Adequate (4+ visits)"
+    fact_pt_admissions[followup_visits_last_year]< 5, "Low (1-4 visits)",
+    "Adequate (4+ visits)")
 ```
 
 
