@@ -314,7 +314,7 @@ See [`dax/dax_measures_and_columns.md`](./dax/dax_measures_and_columns.md) for c
 
 ## About the Author
 
-Dr. Ikrma Choudry is a Healthcare Business Intelligence Developer with an MBBS degree and clinical and medical education experience, currently transitioning into healthcare data analytics.
+Dr. Ikrma Choudry is a Healthcare Business Intelligence Developer with an MBBS degree and clinical and medical education experience.
 
 He specializes in transforming healthcare data into actionable insights using Power BI, DAX, SQL, and data modeling techniques. His unique combination of medical domain expertise and analytics skills enables him to design BI solutions that connect data patterns directly to clinical workflows, patient safety implications, and financial outcomes — a capability that purely technical analysts cannot replicate.
 
