@@ -98,12 +98,13 @@ SWITCH(
 
 ### Predicted Risk Band
 ```dax
-Predicted Risk Band = 
+predicted_risk_band = 
 SWITCH(
     TRUE(),
-    fact_pt_admissions[readmission_risk_score] >= 0.7, "High risk",
-    fact_pt_admissions[readmission_risk_score] >= 0.4, "Medium risk",
-    "Low risk"
+    fact_pt_admissions[readmission_risk_score] >= 0.6, "High risk",
+    
+    "Low Risk"
+    
 )
 ```
 *Purpose: Classifies patients by AI MODEL predicted readmission probability*
