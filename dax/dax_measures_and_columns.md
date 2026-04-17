@@ -115,10 +115,9 @@ SWITCH(
 Follow Up Category = 
 SWITCH(
     TRUE(),
-    fact_pt_admissions[followup_visits_last_year] < 4, "Low (1-3 visits)",
-    fact_pt_admissions[followup_visits_last_year] < 6, "Moderate (4-5 visits)",
-    "Adequate (6+ visits)"
-)
+    fact_pt_admissio
+)ns[followup_visits_last_year] < 5, "Low (1-4 visits)",
+    "Adequate (4+ visits)"
 ```
 
 
@@ -273,20 +272,7 @@ DIVIDE(
 
 ### TOOLTIP AND SUPPORTING MEASURES
 
-#### Age Group % of Total
-```dax
-Age Group % of Total = 
-DIVIDE(
-    COUNTROWS(fact_pt_admissions),
-    CALCULATE(
-        COUNTROWS(fact_pt_admissions),
-        ALL(dim_age_group)
-    )
-) * 100
-```
-*Used in tooltips on Age Group charts to show each group's share of total*
 
----
 
 ## SECTION 5 — NAMING CONVENTIONS
 
