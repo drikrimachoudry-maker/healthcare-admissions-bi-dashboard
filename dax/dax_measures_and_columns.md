@@ -168,10 +168,10 @@ Readmission Rate =
 DIVIDE(
     COUNTROWS(FILTER(fact_pt_admissions, fact_pt_admissions[label] = 1)),
     COUNTROWS(fact_pt_admissions)
-) * 100
+) 
 ```
 *Based on label column: 1 = patient was readmitted within 30 days*
-*Format card as number with 1 decimal + "%" suffix, NOT as Power BI percentage format*
+
 
 #### Readmitted Count
 ```dax
@@ -222,27 +222,24 @@ CALCULATE(
 Avg Risk Score = AVERAGE(fact_pt_admissions[readmission_risk_score])
 ```
 
-#### High Risk Percentage
+#### High Predicted Risk Percentage
 ```dax
-High Risk Percentage = 
-DIVIDE(
-    [High Predicted Risk Patients],
-    [Total Admissions]
-) * 100
+ High Predicted Risk (Percentage of Pts) =
+ DIVIDE([High Predicted Risk Patients],[Total Admissions])
 ```
 
 ---
 
 ### FOLLOW-UP MEASURE
 
-#### Low Follow Up Rate
+#### Low Follow-Up Rate
 ```dax
 Low Follow Up Rate = 
 DIVIDE(
     COUNTROWS(FILTER(fact_pt_admissions, 
         fact_pt_admissions[followup_visits_last_year] < 3)),
     COUNTROWS(fact_pt_admissions)
-) * 100
+) 
 ```
 *Definition: Patients with fewer than 3 follow-up visits in prior year*
 *Clinical rationale: Quarterly follow-up (minimum 4 visits/year) is standard*
@@ -264,7 +261,7 @@ DIVIDE(
             && fact_pt_admissions[label] = 0)
     ),
     COUNTROWS(fact_pt_admissions)
-) * 100
+) 
 ```
 *Calculates % of patients where model prediction matched actual outcome*
 
