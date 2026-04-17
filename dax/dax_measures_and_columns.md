@@ -267,10 +267,6 @@ DIVIDE(
 
 ---
 
-### TOOLTIP AND SUPPORTING MEASURES
-
-
-
 ## SECTION 5 — NAMING CONVENTIONS
 
 | Prefix | Meaning | Example |
