@@ -283,7 +283,6 @@ See [`dax/dax_measures_and_columns.md`](./dax/dax_measures_and_columns.md) for c
 | Recall | 3 | TP / (TP + FN) |
 | Precision | 3 tooltip | TP / (TP + FP) |
 | F1 Score | 3 tooltip | Harmonic mean of Precision and Recall |
-| True Positive, False Positive, False Negative, True Negative | 3 tooltip | Confusion matrix cells |
 
 ---
 
