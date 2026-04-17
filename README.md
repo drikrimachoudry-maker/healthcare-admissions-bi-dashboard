@@ -307,7 +307,7 @@ See [`dax/dax_measures_and_columns.md`](./dax/dax_measures_and_columns.md) for c
 3. All three pages load with full interactivity
 4. Page 1 slicers filter all pages simultaneously
 5. Navigation buttons move between pages
-6. On Page 3 — hover over High Predicted Risk Pts card to see "Follow-up By High Predicted Risk Score MAtrix"
+6. On Page 3 — hover over High Predicted Risk Pts card to see "Follow-up By High Predicted Risk Score Matrix"
 7. On Page 3 — hover over Recall card to see Precision, F1 Score, and clinical context
 
 ---
