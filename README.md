@@ -208,7 +208,7 @@ The follow-up analysis provides the most actionable finding in this dashboard: p
 
 **KPIs (Main Canvas):**
 - Avg Predicted Risk Score: 0.78
-- High Predicted Risk Patients: 68% (risk score ≥ 0.6)
+- High Predicted Risk Patients: 68% (risk score ≥ 0.7)
 - Model Accuracy: 80.9%
 - Recall — Sensitivity: 88.11%
 
